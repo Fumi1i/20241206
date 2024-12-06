@@ -1,0 +1,117 @@
+@charset "utf-8";
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 28px;
+    text-align: center;
+}
+
+
+#section-1 ul {
+    display: flex;
+
+}
+
+#section-1 li {
+    display: flex;
+    justify-content: center;
+    /* width: 190px; */
+    width: calc(100% / 6);
+    padding: 0px;
+}
+
+.page {
+text-align:center;
+}
+#section-1 .page {
+    color: #000;
+    font-family: initial;
+    font-size: 24px;
+    font-style: normal;
+    border-left: 2px solid #000;
+    padding:  10px;
+}
+.page a {
+    color: #000;
+}
+
+.page:last-child  {
+    border-right: 2px solid #000;
+    padding: 10px;
+}
+
+.gazou {
+    display: flex;
+    justify-content: center;
+   
+}
+.syasinn {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.syasinn img {
+    border-radius: 50%;
+}
+
+#section-2 h3 {
+    text-align: center;
+    font-size: 16px;
+}
+.ryouri {
+    display: flex;
+    justify-content: center;
+
+}
+#section-3 h3 {
+    font-size: 16px;
+}
+
+
+#section-3 div {
+    gap: 27px;
+    text-align: center;
+}
+
+.head-border {
+    display: flex;
+    align-items: center;
+    padding: 0 190px;
+}
+
+.head-border:before,
+.head-border:after {
+    content: "";
+    height: 3px;
+    flex-grow: 1;
+    background-color: #000;
+}
+
+.head-border:before {
+    margin-right: 82px;
+}
+
+.head-border:after {
+    margin-left: 82px;
+}
+
+
+footer {
+    background: #eee;
+    text-align: center;
+    padding: 20px 0;
+  }
+  .copyright {
+    font-size: 14px;
+  }
